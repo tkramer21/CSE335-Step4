@@ -1,0 +1,28 @@
+"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\timan\OneDrive\Desktop\College\MSU\Junior\SS23\CSE 335\step4\Aquarium" -B "C:\Users\timan\OneDrive\Desktop\College\MSU\Junior\SS23\CSE 335\step4\Aquarium\cmake-build-debug"
+-- The C compiler identification is MSVC 19.34.31937.0
+-- The CXX compiler identification is MSVC 19.34.31937.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found wxWidgets: debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32ud_core.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32u_core.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxbase32ud.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxbase32u.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32ud_xrc.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32u_xrc.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32ud_html.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxmsw32u_html.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxbase32ud_xml.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxbase32u_xml.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxpngd.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxpng.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxtiffd.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxtiff.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxjpegd.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxjpeg.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxzlibd.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxzlib.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxregexud.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxregexu.lib;debug;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxexpatd.lib;optimized;C:/wxWidgets-3.2.1/lib/vc_x64_lib/wxexpat.lib;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32 (found version "3.2.1") found components: core base xrc html xml png tiff jpeg zlib regex expat 
+CMake Error at CMakeLists.txt:33 (add_subdirectory):
+  add_subdirectory given source "Tests" which is not an existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/timan/OneDrive/Desktop/College/MSU/Junior/SS23/CSE 335/step4/Aquarium/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+
+Cannot get compiler information:
+	Cannot start process, the working directory 'C:\Users\timan\OneDrive\Desktop\College\MSU\Junior\SS23\CSE 335\step4\Aquarium\cmake-build-debug\_deps\googletest-build\googlemock' does not exist
+	Cannot start process, the working directory 'C:\Users\timan\OneDrive\Desktop\College\MSU\Junior\SS23\CSE 335\step4\Aquarium\cmake-build-debug\_deps\googletest-build\googletest' does not exist
+	Cannot start process, the working directory 'C:\Users\timan\OneDrive\Desktop\College\MSU\Junior\SS23\CSE 335\step4\Aquarium\cmake-build-debug\Tests' does not exist
+
+Problems were encountered while collecting compiler information:
+	C:\Users\timan\AppData\Local\Temp\compiler-file1943987126024526116: fatal error C1083: Cannot open include file: 'C:/Users/timan/OneDrive/Desktop/College/MSU/Junior/SS23/CSE 335/step4/Aquarium/cmake-build-debug/CMakeFiles/Aquarium.dir/cmake_pch.hxx': No such file or directory
